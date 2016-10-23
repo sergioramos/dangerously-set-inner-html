@@ -1,0 +1,25 @@
+{
+  "name": "dangerously-set-inner-html",
+  "version": "1.0.0",
+  "description": "dangerouslySetInnerHTML that evaluates script tags",
+  "keywords": [
+    "react",
+    "dangerouslySetInnerHTML",
+    "dangerous",
+    "dangerously",
+    "innerhtml",
+    "set",
+    "html",
+    "script",
+    "inner"
+  ],
+  "main": "index.js",
+  "repository": "ramitos/dangerously-set-inner-html",
+  "dependencies": {
+    "lodash.flatten": "^4.4.0",
+    "parse5": "^2.2.3"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
