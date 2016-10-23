@@ -1,6 +1,6 @@
 # dangerously-set-inner-html
 
-dangerouslySetInnerHTML that evaluates script tags
+dangerouslySetInnerHTML that evaluates `<script>` tags
 
 ## install
 
