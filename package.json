@@ -13,7 +13,7 @@
     "script",
     "inner"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "ramitos/dangerously-set-inner-html",
   "dependencies": {
     "lodash.flatten": "^4.4.0",
