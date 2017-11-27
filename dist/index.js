@@ -108,6 +108,7 @@ var InnerHTML = function (_React$Component) {
         try {
           return fn();
         } catch (e) {
+          console.error(e);
           return null;
         }
       });
