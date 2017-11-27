@@ -75,7 +75,11 @@ class InnerHTML extends React.Component {
     var fns = scripts.map((src) => {
       return new Function('require', src);
     }).forEach((fn) => {
-      return fn();
+      try {
+        return fn();
+      } catch (e) {
+        return null;
+      }
     });
   }
 
