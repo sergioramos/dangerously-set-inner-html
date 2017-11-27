@@ -1,6 +1,6 @@
 {
   "name": "dangerously-set-inner-html",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "dangerouslySetInnerHTML that evaluates script tags",
   "keywords": [
     "react",
