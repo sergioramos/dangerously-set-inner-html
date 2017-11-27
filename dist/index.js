@@ -105,7 +105,12 @@ var InnerHTML = function (_React$Component) {
       var fns = scripts.map(function (src) {
         return new Function('require', src);
       }).forEach(function (fn) {
-        return fn();
+        try {
+          return fn();
+        } catch (e) {
+          console.error(e);
+          return null;
+        }
       });
     }
   }, {
